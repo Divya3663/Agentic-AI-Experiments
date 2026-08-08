@@ -1,0 +1,15 @@
+EXP3 – Prompt Chaining for Summarization
+
+This experiment develops a multi-step prompt chaining workflow using an LLM. The system takes a topic as input, generates a short summary, extracts the important key points from the summary, and then creates three questions based on those key points.
+
+Technologies: Python, Ollama, Llama 3.2
+
+Workflow:
+
+Topic → Summary → Key Points → 3 Questions
+
+Example:
+
+User: "Artificial Intelligence"
+
+The system first generates a summary, then extracts five key points from the summary, and finally generates three important questions based on those key points. Each step uses the output of the previous step as its input.
