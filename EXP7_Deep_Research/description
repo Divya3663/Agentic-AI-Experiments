@@ -1,0 +1,11 @@
+This experiment develops a Deep Research Agent workflow that uses planning, content generation, reflection, and revision to create improved research content. The agent first creates a research plan, generates a draft, evaluates the draft for missing or repetitive information, and then produces a refined final version.
+
+Technologies: Python, Ollama, Llama 3.2
+
+Workflow:
+Research Topic → Planning → Content Generation → Reflection → Revision → Final Content
+Example:
+
+User: "Artificial Intelligence in Cybersecurity"
+
+The Planning Agent creates a research plan, the Content Generation Agent produces a draft, the Reflection Agent identifies areas for improvement, and the Revision Agent generates the final improved content.
