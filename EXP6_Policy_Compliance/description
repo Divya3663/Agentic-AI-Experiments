@@ -1,0 +1,12 @@
+This experiment develops a Policy Compliance Agent that evaluates synthetic employee data against predefined policy rules. The system identifies policy violations, determines whether each employee is COMPLIANT or NON-COMPLIANT, and uses Ollama to generate a concise compliance report.
+
+Technologies: Python, Ollama, Llama 3.2, Rule-Based Evaluation, Synthetic Data
+
+Workflow:
+Synthetic Data → Policy Rules → Rule-Based Evaluation → Compliance Status → AI Compliance Report
+
+Example:
+
+Employee B has a password shorter than 8 characters and does not have MFA enabled.
+
+The system detects these violations using predefined rules and classifies the employee as NON-COMPLIANT, then generates a compliance report with recommended actions.
