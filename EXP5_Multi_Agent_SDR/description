@@ -1,0 +1,12 @@
+This experiment develops a Multi-Agent Sales Development Representative (SDR) system using multiple specialized AI agents. The system uses one agent for lead generation, another for lead qualification, and a third for generating personalized email drafts for qualified leads.
+
+Technologies: Python, Ollama, Llama 3.2
+
+Workflow:
+Target Industry → Lead Generation → Lead Qualification → Email Generation → Email Draft
+
+Example:
+
+User: "Cybersecurity"
+
+The Lead Generation Agent creates potential leads, the Lead Qualification Agent evaluates and categorizes them as HOT, WARM, or COLD, and the Email Generation Agent creates professional outreach emails for qualified leads.
