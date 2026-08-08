@@ -1,0 +1,12 @@
+This experiment develops a SQL Agent that uses an LLM and a database tool to answer natural-language questions. The agent converts the user's question into an SQL query, executes the query on a SQLite database, observes the result, and provides the final answer.
+
+Technologies: Python, SQLite, Ollama, Llama 3.2, SQL
+
+Workflow:
+User Question → SQL Agent → SQL Query → Database Tool → SQLite → Result → Final Answer
+
+Example:
+
+User: "Who has the highest marks?"
+
+The agent generates an SQL query, uses the database tool to execute it, retrieves the result, and presents the answer to the user.
