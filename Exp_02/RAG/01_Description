@@ -1,0 +1,15 @@
+EXP2 – RAG-Based Question Answering System
+
+This experiment develops a Retrieval-Augmented Generation (RAG) system that retrieves relevant information from a knowledge base before generating an answer using an LLM. The system finds the most relevant content and provides it as context to Ollama for accurate question answering.
+
+Technologies: Python, Ollama, Llama 3.2, Sentence Transformers, Scikit-learn
+
+Workflow:
+
+Knowledge Base → Text Processing → Similarity Search → Relevant Context → Ollama → Answer
+
+Example:
+
+User: "What is Artificial Intelligence?"
+
+The system first retrieves relevant information from knowledge.txt and then uses Ollama to generate the final answer based on the retrieved context.
