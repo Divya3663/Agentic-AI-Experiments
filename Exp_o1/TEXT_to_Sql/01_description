@@ -1,0 +1,17 @@
+EXP1 – Text-to-SQL Workflow
+
+This experiment develops an LLM-based Text-to-SQL system that converts natural language questions into SQL queries. The generated SQL query is executed on a SQLite database, and the results are displayed to the user.
+
+Technologies: Python, SQLite, Ollama, Llama 3.2, SQL
+
+Workflow:
+
+User Question → Ollama LLM → SQL Query → SQLite Database → Result
+
+Example:
+
+User: "Show all students who scored more than 85."
+
+SELECT * FROM students WHERE marks > 85;
+
+The query is then executed on the database and the matching student records are displayed.
