@@ -1,0 +1,22 @@
+This experiment develops an end-to-end Agentic AI system that combines RAG, database tools, intelligent agent routing, and a Streamlit interface. The system accepts user questions and selects the appropriate approach, such as retrieving information from a knowledge base, accessing student data from a SQLite database, or using an LLM for general questions.
+
+Technologies: Python, Ollama, Llama 3.2, SQLite, Scikit-learn, Streamlit
+
+Workflow:
+User Question
+      ↓
+Main AI Agent
+      ↓
+ ┌───────────────┬───────────────┬───────────────┐
+ ↓               ↓               ↓
+RAG Agent      SQL Tool       LLM Agent
+ ↓               ↓               ↓
+Knowledge      SQLite       General Answer
+Base           Database
+ └───────────────┴───────────────┘
+                  ↓
+              Final Answer
+                  ↓
+             Streamlit UI
+Objective:
+To build a complete Agentic AI application by integrating RAG, tool use, database interaction, LLM reasoning, and deployment through a web interface into a single end-to-end system.
