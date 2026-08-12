@@ -1,0 +1,16 @@
+This experiment compares the performance of an LLM using different prompting strategies. The same set of questions is given to the model with different prompts, such as zero-shot, few-shot, and structured reasoning prompts. The generated responses are then compared based on accuracy, relevance, clarity, and reasoning quality. This experiment helps understand how prompt design affects the performance of language models.
+
+Technologies: Python, Ollama, Llama 3.2
+
+Workflow:
+Questions
+    ↓
+Different Prompting Strategies
+    ↓
+LLM
+    ↓
+Generated Responses
+    ↓
+Compare Results
+    ↓
+Performance Evaluation
