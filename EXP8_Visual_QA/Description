@@ -1,0 +1,19 @@
+This experiment develops a multimodal Visual Question Answering (VQA) system that accepts an image and a natural-language question. The system uses a vision-enabled LLM to analyze the image and generate an answer based on its visual content.
+
+Technologies: Python, Ollama, Llama 3.2 Vision
+
+Workflow:
+Input Image
+     ↓
+Image Processing
+     ↓
+Vision LLM
+     ↓
+Question Analysis
+     ↓
+Visual Understanding
+     ↓
+Generated Answer
+
+Objective:
+To understand how multimodal AI models can process images and answer questions about their visual content.
