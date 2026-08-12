@@ -1,0 +1,21 @@
+This experiment focuses on adapting a pre-trained language model to a specific domain using fine-tuning. A small domain-specific dataset is prepared and used to train the model so that it can generate more relevant and specialized responses. The fine-tuned model is then evaluated using sample questions and compared with the original model.
+
+Technologies: Python, Ollama, Llama 3.2, Hugging Face Transformers
+
+Workflow:
+Domain Dataset
+      ↓
+Data Preparation
+      ↓
+Pre-trained LLM
+      ↓
+Fine-Tuning
+      ↓
+Specialized Model
+      ↓
+Testing & Evaluation
+      ↓
+Compare Original vs Fine-Tuned Model
+
+Objective:
+To understand how fine-tuning can improve an LLM's performance for a specific domain or task.
