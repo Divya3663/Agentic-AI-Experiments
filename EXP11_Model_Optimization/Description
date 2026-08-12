@@ -1,0 +1,21 @@
+This experiment focuses on improving the efficiency of a language model using model optimization techniques such as quantization. The model is optimized to reduce memory usage and computational requirements while maintaining acceptable response quality. The original and optimized models are tested and compared based on response quality, model size, and execution performance.
+
+Technologies: Python, Ollama, Llama 3.2
+
+Workflow:
+Pre-trained LLM
+      ↓
+Model Optimization
+      ↓
+Quantization / Optimization
+      ↓
+Optimized Model
+      ↓
+Testing
+      ↓
+Compare Performance
+      ↓
+Quality + Speed + Memory Usage
+
+Objective:
+To understand how model optimization techniques can make LLMs faster and more resource-efficient while maintaining good output quality.
